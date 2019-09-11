@@ -1,0 +1,53 @@
+@charset "utf-8";
+html,body,ul,ol,li,dl,dt,dd,form,h1,h2,h3,h4,h5,h6,p,img,fieldset,legend,table,tr,td{
+	margin:0;
+	padding:0;
+	font-family: "Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;
+}
+img,fieldset{
+	border:none;
+}
+body{
+	font-size:12px;
+	color:#3a3a3a;
+	font: 12px/1.5 "Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;
+
+
+
+}
+h1,h2,h3,h4,h5,h6,b,strong,i,em{
+	font-weight:normal;
+	font-style:normal;
+
+}
+ul,ol,li{
+	list-style:none;
+
+}
+a{
+	text-decoration:none;
+	color:#000;
+	    cursor: pointer;
+}
+img{
+	vertical-align:middle;
+}
+.clearfd::after{
+	content:"";
+	clear:both;
+	display:block;
+	height:0;
+	overflow:hidden;
+	visibility:hidden;
+}
+.clearfd{
+	zoom:1;
+}
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+    }
+    input[type="number"]{
+        -moz-appearance: textfield;
+    }
+

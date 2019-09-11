@@ -1,0 +1,233 @@
+@charset "utf-8";
+#ball{
+    width:20px;
+    height:20px;
+    background:gray;
+    border-radius:50%;
+    display:none;
+    position:absolute;
+    z-index:999;
+}
+.hr-10{
+	clear: both;
+    font-size: 1px;
+    line-height: 1px;
+    height: 10px;
+}
+/*地址定向*/
+.g{
+	width: 1200px;
+    margin: 0 auto;
+  
+    padding-top: 10px;
+    color: #BBB;
+}
+/*顶部分类*/
+.layout{
+	width: 1200px;
+    margin: 0 auto;
+}
+.layout .cont{
+	border: 1px solid #dedede;
+    font-family: 'Tahoma',"Microsoft Yahei";
+}
+.layout .cont .top{
+	border-bottom: 1px solid #dedede;
+}
+.layout .cont .top .fl{
+	float: left;
+    text-align: right;
+    width: 86px;
+    padding-top: 16px;
+}
+.layout .cont .top .flc{
+	float: left;
+    padding: 16px 0 0 10px;
+}
+.layout .cont .top .flc a{
+	    color: #e01d20;
+}
+.layout .cont .top .pvalues{
+	margin-left: 140px;
+    padding: 10px 0;
+}
+.layout .cont .top .pvalues .ls-cont{
+	    margin-right: 80px;
+    overflow: hidden;
+    height: 30px;
+}
+.layout .cont .top .pvalues .ls-cont ul li{
+    float: left;
+    margin-right: 20px;
+    padding: 6px 0;
+    height: 18px;
+    white-space: nowrap;
+    
+}
+
+.layout .cont .top .pvalues .ls-cont ul li a{
+color: #999;
+    display: inline-block;
+}
+.layout .cont .bottom{
+	border-bottom:0;
+}
+.layout .cont .bottom .pvalues{
+	margin-left: 100px;
+    padding: 10px 0;
+}
+.layout .cont .bottom .pvalues li i{
+
+    display:inline-block;
+    width:10px;
+    height:10px;
+    font-size: 0;
+    line-height: 0;
+    overflow: hidden;
+    width: 8px;
+    background: transparent url(../images/dyicon1.png) scroll no-repeat;
+	 background-position: 0 -110px;
+	 margin-left:2px;
+}
+.layout .cont .bottom .pvalues .pj i{
+	    background-position: 0px -27.5px;
+}
+
+/*中部所有手机*/
+.tellayout{
+	width: 1200px;
+    margin: 0 auto;
+}
+.tellayout .tellist{
+    padding-bottom: 20px;
+}
+.tellayout .tellist .listul li{
+	float: left;
+    width: 20%;
+    cursor:pointer;
+} 
+ .tellist .listul li .panels{
+    margin: 0 20px 20px 0;
+    border: 1px solid #dedede;
+    height: 362px;
+    position: relative;
+    text-align: center;
+    font-family: 'Tahoma',"Microsoft Yahei";
+    overflow: hidden;
+ }
+ .listul li .panels .p-img{
+ 	padding: 38px 0 24px;
+    text-align: center;
+ }
+ .listul li .panels .p-img img{
+    vertical-align: top;
+    width: 180px;
+    height: 180px;
+}
+
+ .listul li .panels  .p-name {
+    line-height: 16px;
+    padding: 0 20px;
+    min-height: 38px;
+    overflow: hidden;
+}
+ .listul li .panels  .p-name  a{
+ 	color: #666;
+ }
+ .p-name a span {
+    display: block;
+    margin-bottom: 5px;
+    max-height: 32px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+.p-name a .red {
+ 	color: #ca141d!important;
+ 	    margin-bottom: 1px;
+ }
+.listul li .panels  .p-price{
+  	color: #e01d20;
+    line-height: 30px;
+}
+.listul li .panels .p-price b {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: Arial,Helvetica,sans-serif;
+}
+.listul li .panels .p-button{
+	position: absolute;
+    left: -1px;
+    width: 224px;
+    bottom: -1px;
+}
+.listul li .panels .p-button table{
+	width: 100%;
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+.p-button table tbody tr td{
+    border: 1px solid #dedede;
+}
+.p-button table tbody tr td a{
+    display: block;
+    height: 30px;
+    line-height: 30px;
+    color: #666;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.p-button table tbody tr .buy  span{
+	    color: #e01d20;
+}
+/*页面*/
+.page{
+	width:1200px;
+	margin: 0 auto;
+}
+.page ul{
+	float:right;
+	font-size: 10px;
+}
+.page ul li{
+	color: #adadad;
+    cursor:pointer ;
+	width: 29px;
+    height: 29px;
+    overflow: hidden;
+    text-indent: 99px;
+    padding: 0;
+    float: left;
+    background-color: #fafafa;
+    border: 1px solid #dddcdb;
+    line-height: 31px;
+    margin: 0 0 0 10px;
+    background: transparent url(../images/listicon.png) scroll no-repeat;
+	background-position: 10px -76px;
+}
+
+.page ul .first{
+	background-position: 10px -76px;
+} 
+.page ul .back{
+	    background-position: -18px -76px;
+}
+.page ul .forward{
+	     background-position: -72px -76px;
+}
+.page ul .last{
+	       background-position: -44px -76px;
+}
+.page ul a {
+	float:left;
+}
+.page ul a span{
+	color: #ca151e;
+	line-height: 31px;
+    cursor: pointer;
+    margin: 0 0 0 10px;
+    overflow: hidden;
+}
+

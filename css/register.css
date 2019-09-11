@@ -1,0 +1,412 @@
+@charset "utf-8";
+body{
+	background:#f2f2f2;
+}
+.wrap{
+	    background-color: #333;
+    height: 67px;
+    min-width: 960px;
+}
+.header{
+	
+    height: 67px;
+    width: 960px;
+    margin:0 auto;
+
+}
+.img{
+	width: 143px;
+	float:left;
+  
+}
+.img img {
+  
+    margin-top: 17px;
+}
+.title{
+	color: white;
+    font-size: 20px;
+    height: 67px;
+    line-height: 50px;
+    font-family: "arial";
+    padding-top: 14px;
+    float:left;
+}
+.gang{
+	 font-size: 18px;
+    margin-top: -5px;
+    float: left;
+    color: #cccccc;
+    margin-left:20px;
+}
+.wz{
+	font-size: 18px;
+    margin-top: -3px;
+    float: left;
+    margin-left:18px;
+}
+/*中部*/
+.content{
+
+    padding-top: 30px;
+    width: 960px;
+    margin: 0 auto;
+}
+.content .c_title{
+	visibility: visible;
+
+}
+.content .c_title a {
+	display: inline-block;
+    position: relative;
+    background: #ccc;
+    margin-right: 12px;
+}
+.content .c_title #red{
+	background: #b40707;
+}
+.content .c_title .tel i{
+    display: inline-block;
+    position: absolute;
+    top: 6px;
+    left: 20px;
+    width: 14px;
+    height: 22px;
+    background: url(../images/reg-img01.png) no-repeat;
+    background-position: 0 -18px;
+
+}
+.content .c_title span {
+	width: 86px;
+    display: inline-block;
+    height: 35px;
+    line-height: 35px;
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+    margin-left: 30px;
+    margin-right: 30px;
+    text-align: center;
+}
+.content .c_title .cup i{ 
+    display: inline-block;
+    position: absolute;
+    top: 9px;
+    left: 16px;
+    width: 22px;
+    height: 17px;
+    background: url(../images/reg-img01.png) no-repeat;
+    background-position: 0 0;
+}
+.login_r{
+	    margin-top: -25px;
+    font-size: 14px;
+    float:right;
+}
+.login_r a{
+    color: #007dff;
+    }
+.login_r span{
+    color: #007dff;
+    }
+    /*主体*/
+.re_data{
+	padding: 30px 270px;
+    font-size: 14px;
+    color: #333;
+    background: #fff;
+}
+.registerTitle {
+    text-align: center;
+    margin: 10px 0 30px;
+}
+.registerTitle .mianTitle {
+    font-size: 24px;
+}
+.registerTitle .subTitle {
+    font-size: 16px;
+    font-size: 16px;
+    margin-top: 12px;
+    color: #999;
+}
+.select{
+	margin-top: 20px;
+    background: #f7f7f7;
+    height: 42px;
+    border: 1px solid #d9d9d9;
+    border-radius: 21px;
+    position: relative;
+    
+}
+ .input-left{
+    height: 100%;
+    width: 90px;
+    border-right: 1px solid #d9d9d9;
+    padding: 0 16px;
+    line-height: 42px;
+}
+.selectnation .input-content{
+	    margin-left: 123px;
+	        height: 100%;
+    overflow: visible;
+}
+
+.dropMenu{
+    line-height: 42px;
+    position: relative;
+    top:-40px;
+        cursor: pointer;
+
+}
+ .select-text {
+    font-size: 15px;
+    vertical-align: middle;
+    display: inline-block;
+    height: 42px;
+    line-height: 42px;
+    padding: 0 16px;
+}
+.select-ico {
+
+	position: absolute;
+    top: 17px;
+    right: 16px;
+    width: 12px;
+    height: 6px;
+    background-image: url(../images/triangle_green.png);
+    background-size: cover;
+    margin-left: 8px;
+    display: inline-block;
+    vertical-align: middle;
+    *zoom: 1;
+    *display: inline;
+}
+/*隐藏*/
+.droplist{
+	display:none;
+	position: absolute;
+    min-width: 136px;
+    max-width: 290px;
+    width: 290px;
+    background-color: #FFF;
+    border-radius: 10px;
+    border: 1px solid #eee;
+    box-shadow: 0 0 2px 2px #eee;
+    z-index: 1000;
+    overflow: hidden;
+    top: 40px;
+    font-size: 12px;
+    color: #333;
+}
+.droplist .orderContainer {
+    padding: 16px 16px 10px;
+    font-weight: 500;
+}
+.droplist .input-div {
+    background: #f7f7f7;
+    border-radius: 16px;
+    height: 32px;
+}
+.input-div {
+    overflow: hidden;
+}
+.droplist .flow-label {
+    line-height: 20px;
+}
+.margin16 {
+    margin-top: 16px;
+}
+.searchValue{
+	background:gray;
+    height:30px;
+    width: 258px;
+    border: 0;
+
+  }
+.droplist .flow-label span {
+    margin-right: 8px;
+    display: inline-block;
+}
+
+.droplist .flow-label {
+    line-height: 20px;
+}
+.droplist ul{
+    overflow-y: auto;
+    height: 256px;
+    padding-top: 6px;
+}
+.droplist li {
+	        cursor: pointer;
+    padding: 13px 16px;
+    overflow: hidden;
+    line-height: 1;
+}
+
+.selecttel .wz{
+	   /* display: block;*/
+    height: 42px;
+    line-height: 42px;
+     font-size: 0;
+    cursor: pointer;
+        position: relative;
+		top:4px;
+        right:35px;
+}
+.selecttel .select-text{
+    font-size: 15px;
+    vertical-align: middle;
+    display: inline-block;
+    width: 30px;
+    min-width: 70px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.selecttel .select-ico{
+	width: 12px;
+    height: 6px;
+    background-image: url(../images/triangle_green.png);
+    background-size: cover;
+    margin-left: 8px;
+    display: inline-block;
+    vertical-align: middle;
+    position:absolute;
+    left:90px;
+}
+/*隐藏*/
+.selecttel .droplist{
+	display:none;
+}
+.selecttel .input-content{
+	height: 100%;
+    overflow: hidden;
+}
+.selecttel .input-content label{
+	display: block;
+    position: absolute;
+    top:0;
+    left:120px;
+    cursor: text;
+    float: left;
+    z-index: 2;
+    padding-left: 0px;    
+    padding-top: 6px!important;
+} 
+.selecttel .input-content label>div{
+	border: none;
+    background: transparent;
+    cursor: text;
+    margin: 2px;
+    color: rgb(204, 204, 204);
+        height: 28px;
+    line-height: 28px;
+    font-size: 14px;
+    padding: 0 16px;
+}
+.selecttel .input-content input{
+	height: 100%;
+	width:60%;
+	z-index:10;
+    border: 0;
+    padding: 0 16px;
+     position: absolute;
+    top:0;
+    left:122px;
+    border:none;
+    background: transparent;
+}
+
+.scode .code{
+	font-size:20px;
+	position:relative;
+	top:5px;
+	left:40%;
+}
+
+.date .inpuyt-content{
+	    margin-left: 123px;
+	        padding: 0 16px;
+    overflow: visible;
+}
+.birthdate{
+	position:absolute;
+	top:0;
+	width:66%;
+
+	left:123px;
+	height:100%;
+}
+.ys{
+	width:30%;
+	height:100%;
+
+	float:left;
+	text-align:center
+
+}
+.ys  .ico{
+		width: 12px;
+    height: 6px;
+    background-image: url(../images/triangle_green.png);
+    background-size: cover;
+    margin-left: 8px;
+    display: inline-block;
+    vertical-align: middle;
+    position:absolute;
+    top:20px;
+
+}
+.birthdate .ys>span{
+	font-size:16px;
+
+	line-height:48px;
+}
+
+.droplistt{
+	display:none;
+	position: absolute;
+    min-width: 100px;
+    max-width: 100px;
+    width: 100px;
+    background-color: #FFF;
+    border-radius: 10px;
+    border: 1px solid #eee;
+    box-shadow: 0 0 2px 2px #eee;
+    z-index: 1000;
+    overflow: hidden;
+    top: 40px;
+    font-size: 12px;
+    color: #333;
+}
+.droplistt ul{
+    overflow-y: auto;
+    height: 256px;
+    padding-top: 6px;
+}
+.droplistt li {
+	cursor: pointer;
+    padding: 13px 16px;
+    overflow: hidden;
+    line-height: 1;
+        border-bottom: 1px solid #eee;
+}
+.button{
+	    margin-top: 30px;
+    text-align: center;
+}
+.button .btn{
+    background-color: #b40707;
+    border: 0;
+    color: #fff;
+    width: 200px;
+    height: 40px;
+    cursor: pointer;
+    border-radius:20px;
+}
+.mail{
+	display:none;
+}
+.telp{
+	display:block;
+}

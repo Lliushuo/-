@@ -1,0 +1,352 @@
+@charset "utf-8";
+body{
+	background:#ebebeb;
+}
+.customer-header{
+	width:998px;
+
+	margin:0 auto;
+	height: 67px;
+    border: 0;
+    position: relative;
+}
+.logo{
+	left: 2px;
+    float: left;
+    margin-right: 20px;
+}
+.logo img{
+	margin-left: 4px;
+    margin-top: 17px;
+}
+.logoname{
+	float:left;
+	color: white;
+    font-size: 20px;
+    line-height: 50px;
+  /*  font-family: "arial";*/
+    padding-top: 14px;
+}
+.logoname b:first-child{
+	    font-size: 18px;
+    margin-top: -5px;
+    float: left;
+    color: #cccccc;
+}
+.logoname .titlename{
+	color: #333;
+    font-size: 18px;
+    margin-top: -3px;
+    float: left;
+    margin-left: 20px;
+}
+/*网络安全法*/
+.law{
+	background: #FFFBE4;
+    display: block;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    color: #989898;
+}
+.law span{
+	background-image: url(../images/prompt.png);
+    background-repeat: no-repeat;
+    background-size: 13px 13px;
+    padding: 0 20px;
+}
+/*登录*/
+.login_bg {
+    background-color: #081638;
+}
+.login{
+	
+	background: url(../images/login_default_bg.png) no-repeat;
+}
+.login_panel{
+	margin-top: 30px;
+    margin-bottom: 30px;
+    height: 530px;
+    position: relative;
+    right:60px;
+    width: 380px;
+    float: right;
+    background-color: #fff;
+}
+.usernamelogin .title{
+	width: 100%;
+    margin: 24px auto;
+    text-align: center;
+}
+.usernamelogin .title span{
+	font-size: 20px;
+	line-height:20px;
+    color: #333;
+    font-weight: 500;
+    cursor: pointer;
+    width: 169px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    padding: 0 10px;
+}
+
+.usernamelogin .title .sg{
+	color: #b40707;
+}
+.usernamelogin .title .line{
+	border-left: 1px solid #ccc;
+}
+.linput{
+	width:330px;
+	margin-left:26px;
+	margin-top:40px;
+}
+.linput .username{
+	width:330px;
+	height:46px;
+	border:0;
+	border-bottom:1px solid gray
+}
+.linput .password{
+	width:330px;
+	height:46px;
+	border:0;
+	border-bottom:1px solid gray
+}
+
+.linput>span{
+	display:block;
+	padding: 16px 0;
+	color: #007dff;
+    cursor: pointer;
+}
+.linput>span i{
+	margin-right: 6px;
+	width: 11px;
+    height: 15px;
+    background: url(../images/ic_smsLogin.png) no-repeat;
+    background-repeat: no-repeat;
+    display: inline-block;
+    background-position: -2px 0;
+    margin-bottom: -3px;
+}
+.linput .button{
+	 background-color: #b40707;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #b40707;
+    color: #fff;
+    width: 326px;
+    border-radius: 0;
+    line-height: 44px;
+    height: 44px;
+    font-weight: bold;
+    font-size: 14px;
+    background-image: none;
+    cursor: pointer;
+    border-radius: 26px;
+    text-align: center;
+    margin-top: 0;
+}
+.linput .rem{
+    padding: 16px 0;
+    position: relative;
+
+}
+.linput .rem input{
+    position: absolute;
+    top:16px;
+}
+.linput .rem i{
+	width: 18px;
+    height: 18px;
+    background-image: url(../images/tick-on.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+    margin-bottom: -4px;
+    margin-right:7px;
+    margin-left:1px;
+    position: relative;
+    z-index:10px;
+}
+.linput .rem .r{
+	    float: right;
+	        position: absolute;
+    right: 0;
+    z-index: 1000;
+ 
+
+}
+.linput .rem .r a{
+	    color: #007dff;
+}
+.linput .zc{
+	    text-align: center;
+} 
+.linput .zc .regist{
+	padding-right: 10px;
+    border-right: 1px solid #ccc;
+    text-align: right;
+    color: #999;
+}
+.linput .zc .regist a{
+	color: #007dff;
+	    cursor: pointer;
+}
+.linput .zc  .forgot {
+    padding-left: 10px;
+    text-align: left;
+        color: #999;
+}
+.linput .zc  .forgot a{
+    color: #007dff;
+}
+.thirdLoginBlock {
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    color: #999;
+    line-height: 16px;
+}
+.thirdLintTitle {
+    position: relative;
+    width: 328px;
+    margin-bottom: 10px;
+}
+
+.thirdLintTitle .line-left {
+    left: 0;
+}
+.thirdLintTitle .third-tips {
+    color: #ccc;
+    vertical-align: middle;
+    text-align: center;
+    max-width: 190px;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    background: #fff;
+    padding: 0 10px;
+    line-height: 1.5;
+}
+.thirdLintTitle .line-left {
+    background-image: url(../images/thirdLine.png);
+    background-repeat: no-repeat;
+    height: 1px;
+    position: absolute;
+    width: 94px;
+    background-size: cover;
+}
+.thirdLintTitle .line-right {
+    background-image: url(../images/thirdLine-reverse.png);
+    background-repeat: no-repeat;
+    height: 1px;
+    position: absolute;
+    width: 94px;
+    background-size: cover;
+}
+.thirdLoginDiv {
+    width: 328px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.thirdLoginDiv span {
+    padding: 0 10px;
+    text-align: center;
+    display: inline-block;
+}
+.qqLogin_bigIco a {
+    background-image: url(../images/third_login.png);
+    background-repeat: no-repeat;
+    width: 42px;
+    height: 42px;
+    padding: 0;
+    display: inline-block;
+    margin: 0;
+    float: none;
+    background-position: -72px -9px;
+}
+
+.alipayLogin_bigIco a {
+
+    background-image: url(../images/third_login.png);
+    background-repeat: no-repeat;
+    width: 42px;
+    height: 42px;
+    padding: 0;
+    display: inline-block;
+    margin: 0;
+    float: none;
+    background-position: -132px -9px;
+}
+.weixinLogin_bigIco a {
+    background-image: url(../images/third_login.png);
+    background-repeat: no-repeat;
+    width: 42px;
+    height: 42px;
+    padding: 0;
+    display: inline-block;
+    margin: 0;
+    float: none;
+    background-position: -12px -9px;
+}
+
+/*底部*/
+.footer{
+	    margin: 20px auto;
+    text-align: center;
+    font-size: 12px;
+    color: #999;
+}
+.footer .one{
+	    text-align: center;
+    line-height: 20px;
+    height: 20px;
+        display: block;
+}
+.footer .one a {
+    font-size: 12px;
+    color: #999;
+    padding: 0 10px;
+}
+.footer .one {
+    font-size: 16px;
+}
+
+.footer .two{
+	text-align: center;
+    line-height: 12px;
+    height: 12px;
+    margin-top: 10px;
+    display:inline-block;
+}
+
+/*扫码*/
+.qrCode-desc {
+    margin-bottom: 24px;
+    padding: 0 10px;
+}
+.qrCode-desc p {
+    font-size: 13px;
+    padding: 5px 0;
+    text-align: center;
+}
+.haweiapp {
+    color: #007dff;
+}
+.code{
+	 height: 262px;
+    position: relative;
+    text-align: center;
+    top: 64px;
+
+    position: relative;
+    margin: 0 auto;
+    margin-bottom:20px;
+
+}
+.sm{
+    display:none;
+}

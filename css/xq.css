@@ -1,0 +1,355 @@
+.location{
+    width: 1200px;
+    margin: 0 auto;
+    margin-bottom:30px;
+}
+.breadcrumb-area{
+    margin-left: 1px;
+    line-height: 1.5;
+    padding-top: 10px;
+    color: #BBB;
+}
+.breadcrumb-area  a{
+  color: #666;
+} 
+/*内容左边*/
+.content{
+    width: 1200px;
+    margin: 0 auto;
+}
+.content .left{
+  float:left;
+  margin-top:150px;
+}
+.content .left .mainimg{
+      width: 450px;
+    margin: 0 auto;
+}
+.content .left .mainimg img{
+    width: 450px;
+    height: 450px;
+}
+.content .left .btimg{
+    width: 450px;
+    height: 68px;
+
+    margin-top: 18px;
+    position: relative;
+}
+.content .left .btimg .back{
+    position: absolute;
+    top: 0;
+    width: 30px;
+    height: 68px;
+    left: 0;
+
+}
+.content .left .btimg .back:before{
+    content: "";
+    width: 30px;
+    height: 30px;
+    display: block;
+    margin-top: 19px;
+    background: url(../images/xqicon.png) no-repeat -48px -29px;
+}
+.content .left .btimg .ulimg{
+    width: 370px;
+    height: 68px;
+    margin-left: 40px;
+    overflow: hidden;
+    position: relative;
+}
+.content .left .btimg .ulimg ul{
+    width: 500%;
+    position: absolute;
+    left:0;
+}
+.content .left .btimg .ulimg ul li{
+    float: left;
+    padding: 0 3px;
+
+}
+/*选中*/
+.content .left .btimg .ulimg ul li a{
+    display: block;
+    width: 66px;
+    height: 66px;
+    border: 1px solid white;
+}
+.content .left .btimg .ulimg ul li:first-child a{
+    border:1px solid red;
+
+}
+.content .left .btimg .ulimg ul li a img{
+    display: block;
+    vertical-align: top;
+    width: 60px;
+    height: 60px;
+    margin: 3px 0 0 3px;
+}
+.content .left .btimg .forward{
+    position: absolute;
+    top: 0;
+    width: 30px;
+    height: 68px;
+    right: 0;
+
+}
+.content .left .btimg .forward:before{
+    content: "";
+    width: 30px;
+    height: 30px;
+    display: block;
+    margin-top: 19px;
+    background: url(../images/xqicon.png) no-repeat -78px -29px;
+
+}
+/*内容右边*/
+.content .right{
+  float:right;
+}
+.content .right .rgcont{
+    width: 700px;
+    padding: 0 0 30px 30px;
+    position: relative;
+}
+.content .right .rgcont h1{
+      font-size: 21px;
+    max-height: 84px;
+    overflow: hidden;
+    margin-bottom: 10px;
+        font-weight: 400;
+}
+.content .right .rgcont .redw{
+      font-size: 14px;
+    padding-right: 40px;
+    margin-bottom: 12px;
+    position: relative;
+    top: -3px;
+    line-height: 20px;
+}
+.content .right .rgcont .redw span{
+    margin-right: 15px;
+    color: #ca141d;
+}
+.content .right .rgcont .p-info{
+    background: #e4e1e1;
+    padding-top: 14px;
+    padding-bottom: 3px;
+
+    
+}
+.content .right .rgcont .p-info .price{
+    padding-bottom: 4px;
+}
+label {
+    float: left;
+    width: 85px;
+    text-indent: 10px;
+    line-height: 30px;
+}
+.p-info .price .jg{
+      float: left;
+    font-size: 18px;
+    height: 30px;
+    overflow: hidden;
+    line-height: 30px;
+   color: #ca141d;
+    padding-right: 3px;
+}
+.p-info .cx{
+    padding-bottom: 4px;
+}
+.p-info .cx .cxcont{
+    width: 615px;
+    max-height: 120px;
+    overflow: hidden;
+    float: left;
+}
+.p-info .cx .cxcont .cx1{
+    margin-bottom: 2px;
+    line-height:28px;
+
+}
+.cx1 .tag {
+    float: left;
+    line-height: 18px;
+    height: 18px;
+    border: 1px solid #ca141d;
+    padding: 0 6px;
+    min-width: 24px;
+    color: #ca141d;
+    text-align: center;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+.cx1 .gift{
+      float: left;
+    max-width: 480px;
+    max-height: 30px;
+    overflow: hidden;
+}
+.cx1 .gift a{
+    margin-left: 10px;
+    
+  }
+  .cx1 .gift a img{
+    width: 30px;
+    height: 30px;
+    vertical-align: top;
+  }
+.fwsm{
+  margin-top:20px;
+}
+.fwsm span{
+  color:red;
+}
+.fwsm .sm{
+  margin-left:35px;
+      width: 614px;
+    line-height: 24px;
+}
+.fwsm .sm ul li {
+      display: inline-block;
+    margin-right: 12px;
+    position: relative;
+    padding-left: 18px;
+    line-height: 18px;
+}
+.skus {
+  margin-top:15px;
+
+}
+.skus  dl{
+  
+}
+.skus .scolor{
+      width: 605px;
+      float: left;
+}
+.skus .scolor ul{
+width: 605px;
+}
+.skus .scolor ul li{
+      float: left;
+    margin: 0 10px 10px 0;
+} 
+.skus .scolor ul li a{
+  display: block;
+    border: 1px solid #a4a4a4;
+    text-align: center;
+    height: 38px;
+    border-radius: 2px;
+     line-height:36px;
+    position: relative;
+    padding: 0 12px;
+}
+.skus .scolor ul li a img{
+      width: 30px;
+    height: 30px;
+    float: left;
+    margin-top: 4px;
+}
+.skus .scolor ul li a p{
+      height: 34px;
+    overflow: hidden;
+    float: left;
+    margin-top: 3px;
+    margin-left: 6px;
+} 
+.skus .scolor ul li a p span{
+    height: 34px;
+    line-height: 17px;
+    min-width: 0;
+    max-width: 86px;
+}
+.skus .ls ul li a{
+    line-height:14px;
+    display: block;
+    text-align: center;
+    height: 22px;
+    border-radius: 2px;
+    position: relative;
+    padding: 0 12px;
+
+}
+
+.productbtn{
+    margin-top: 10px;
+    position: relative;
+}
+.productbtn .num{
+  float: left;
+    border: 1px solid #d6d6d6;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 2px;
+}
+.productbtn .num .numinput{
+  float: left;
+    width: 41px;
+    height: 44px;
+    line-height: 44px;
+    border: 0;
+    font-size: 18px;
+    text-align: center;
+    border-right: 1px solid #e2e2e2;
+}
+.productbtn .num p{
+      width: 21px;
+    float: left;
+}
+.productbtn .num p a {
+    display:block;
+    font-size: 16px;
+    width: 21px;
+    height: 21px;
+    line-height: 22px;
+    text-align: center;
+    color: #777;
+    font-weight: bold;
+}
+.productbtn .num p a:first-child{
+    border-bottom: 1px solid #e2e2e2;
+}
+
+.productbtn .numbtn{
+    position: relative;
+    margin-left: 85px;
+}
+.productbtn .numbtn a{
+    float: left;
+    margin-right: 10px;
+}
+.product-button01 {
+    display: block;
+    background: #fc600c;
+    width: 172px;
+    height: 46px;
+    font-size: 18px;
+    line-height: 46px;
+    text-align: center;
+    color: #fff;
+    border-radius: 2px;
+    border: 0;
+    cursor: pointer;
+}
+.product-button02 {
+    display: block;
+    background: #ca151d;
+    width: 172px;
+    height: 46px;
+    font-size: 18px;
+    line-height: 46px;
+    text-align: center;
+    color: #fff;
+    border-radius: 2px;
+    border: 0;
+    cursor: pointer;
+}
+.line {
+    margin-top:800px;
+    width: 100%;
+    height:1px;
+    background: #ddd;
+}

@@ -1,0 +1,259 @@
+
+@charset "utf-8";
+/*购物车*/
+.left .logo span{
+	 margin-left: 26px;
+    font-size: 22px;
+    line-height: 36px;
+}
+.right .pro-cat{
+	width: 320px;
+    height: 50px;
+    overflow: hidden;
+    text-indent: 100%;
+    white-space: nowrap;
+    background: transparent url(../images/gwc.svg) no-repeat;
+	background-position: -42px -22px;
+}
+
+/*主体*/
+.layout{
+	width: 1200px;
+    margin: 0 auto;
+
+}
+.shop{
+    min-height:600px;
+}
+.layout .s-title{
+	
+    line-height: 40px;
+    padding-left: 40px;
+    color: #a4a4a4;
+}
+.layout .s-title label{
+	float: left;
+    width: 150px;
+}
+.layout  label input{
+	margin-right: 10px;
+    cursor: pointer;
+    background: url(../images/gwcicon.png) no-repeat;
+    border: 0 none;
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+
+    background-position: -18px -129px;
+    vertical-align: text-top;
+    color: hsla(0,0%,100%,0);
+    cursor: default;
+    font-size: 0;
+    outline:none;
+}
+/*这里*//*选中*/
+.layout  label input{
+	    
+    background-position: 0px -129px;
+}
+.layout .s-title ul{
+	float:left;
+}
+.layout .s-title ul li {
+    float: left;
+    width: 100px;
+    margin-left: 30px;
+    min-height: 14px;
+    text-align: center;
+}
+.layout .s-title ul li:first-child {
+    width: 450px;
+    text-align: left;
+    margin-left: 0;
+}
+
+.layout .catform .sc-catlist{
+
+    padding-left: 40px;
+    margin-top: 10px;
+    padding-top: 20px;
+}
+.layout .catform .sc-catlist label{
+	float: left;
+    margin: 43px 3px 0 0;
+}
+.layout .catform .sc-catlist .catare{
+	float: left;
+    width: 1130px;
+    font-size: 14px;
+}
+.sc-catlist .catare .main{
+	margin-bottom: 18px;
+    position: relative;
+}
+ .catare .main>a{
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin-right: 20px;
+    position: relative;
+}
+ .catare .main a img{
+ 	 width: 100%;
+    height: 100%;
+ }
+  .catare .main ul{
+  	float:left;
+  }
+
+.catare .main ul li{
+	float: left;
+	width: 100px;
+    margin-left: 30px;
+    min-height: 14px;
+    text-align: center;
+ }
+ .main  ul li:first-child{
+    width: 450px;
+ 
+    margin-left: 0;
+}
+ .main  ul li:nth-child(2) {
+    width: 140px;
+    margin-left: 30px;
+    margin-right: -20px;
+}
+ .main  ul li:nth-child(2) a{
+    display: block;
+    margin-bottom: 3px
+ 
+}
+ .main  ul li .numbtn{
+ 	    display: block;
+    border: 1px solid #d6d6d6;
+    width: 86px;
+    margin: 0 auto;
+    height: 20px;
+    border-radius: 2px;
+    position: relative;
+ }
+ .numbtn .p-stock-text {
+	width: 42px;
+    height: 18px;
+    outline:none;
+    position: absolute;
+    top: 0;
+    left: 22px;
+    text-align: center;
+    border: 1px solid #d6d6d6;
+    border-bottom: none;
+    border-top: none;
+    z-index: 1;
+}
+ .p-stock-btn {
+    width: 86px;
+   margin-left:7px;
+   margin-top:-20px;
+   position:relative;
+   z-index:6;
+}
+ .p-stock-btn a {
+	cursor: pointer;
+    width: 21px;
+    height: 20px;
+    line-height: 19px;
+    float: left;
+    font-size: 16px;
+    text-align: center;
+    color: #717171;
+}
+.p-stock-btn a:last-child {
+    float: right;
+}
+
+ .main  ul li:nth-child(3){
+ 	margin-left:20px;
+ }
+
+  .main  ul li:nth-child(4) a{
+  	margin-right:15px;
+     color: #ca141d;
+    font-weight: 700;
+ }
+ .main  ul li:nth-child(5){
+    	margin-left:25px;
+ }
+ .main  ul li:nth-child(5) a{
+   	    color: #a4a4a4;
+ }
+
+
+.ls{
+	margin-top:20px;
+	border:1px solid gray;
+	background:#fff;
+	height: 60px;
+}
+.ls label{
+	margin-top:10px;
+}
+.ls .pricebtn{
+	float: right;
+  
+    
+  
+}
+.ls .pricebtn a {
+    width: 180px;
+    height: 60px;
+    line-height: 60px;
+    display: block;
+    background: #ca151e;
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+}
+.ls .total{
+	float: right;
+    padding-right: 30px;
+    margin-top: 7px;
+    text-align: right;
+}
+.ls .total p {
+    font-size: 14px;
+    position: relative;
+}
+.ls .total p span {
+    color: #ca151e;
+    font-size: 18px;
+    font-weight: 700;
+
+}
+.ls .total i{
+    width: 12px;
+    height: 12px;
+    display: block;
+    position: absolute;
+    right: -20px;
+    top: 12px;
+  
+}
+.ls .total p i{
+    content: "";
+    width: 12px;
+    height: 12px;
+ 	background:url(../images/gwc2.png) no-repeat;
+ }
+.total-choose {
+    color: #a4a4a4;
+    position:relative;
+    top:-18px;
+}
+.total-choose em {
+    color: #ca151e;
+    margin: 0 5px;
+    font-weight: 700;
+}
+.total-choose span {
+    color: #3a3a3a;
+}

@@ -1,0 +1,54 @@
+.locat {
+  width: 1200px;
+  margin: 0 auto;
+  zoom: 1;
+  margin-top: 30px; }
+  .locat .fcn {
+    margin-left: 1px;
+    line-height: 1.5;
+    padding-top: 10px;
+    color: #BBB; }
+  .locat a {
+    color: #666; }
+  .locat span {
+    color: #333; }
+
+.hr-10 {
+  clear: both;
+  font-size: 1px;
+  line-height: 1px;
+  height: 10px; }
+
+.content {
+  width: 1200px;
+  margin: 0 auto; }
+  .content .left {
+    float: left;
+    width: 450px; }
+    .content .left .bigtopimg {
+      width: 450px;
+      height: 450px; }
+      .content .left .bigtopimg img {
+        vertical-align: top;
+        width: 450px;
+        height: 450px; }
+    .content .left .bottomimg {
+      width: 450px;
+      height: 68px;
+      margin-top: 18px;
+      position: relative; }
+      .content .left .bottomimg .back {
+        position: absolute;
+        top: 0;
+        width: 30px;
+        height: 68px;
+        left: 0; }
+      .content .left .bottomimg .back:before {
+        content: "";
+        width: 30px;
+        height: 30px;
+        display: block;
+        margin-top: 19px;
+        background: url(../images/xqicon.png) no-repeat -48px -29px; }
+  .content .right {
+    float: left; }

@@ -1,0 +1,32 @@
+@charset "utf-8";
+	    .bigimg{
+			padding:0;
+			margin:0;
+			width:300px;height:300px;
+			border:1px solid gray;
+			position:fixed;
+			left:40%;
+			top:20%;
+			z-index:20;
+			display:none;
+			overflow: hidden;
+			background:rgba(255,255,255,0.9);
+		}
+		.bigimg img{
+			position:absolute;
+			width:1350px;
+			height:1350px;
+		}
+		.mainimg{
+			position:relative;
+		
+		}
+		.smallimg{
+			position:absolute;
+			width:100px;
+			height:100px;
+			top:0;
+			left:0;
+			border:1px solid gray;
+			display:none;
+		}
